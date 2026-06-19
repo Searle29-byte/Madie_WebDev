@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madie Searle — Hobbies &amp; Life Outside Work</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Internal style block on second page (Chapter 24 requirement) -->
+  <style>
+    #hobbies-hero {
+      background-color: #4a3520;
+      color: #f5efe6;
+      padding: 120px 40px 60px;
+      text-align: center;
+      position: relative;
+    }
+
+    #hobbies-hero h1 {
+      font-size: 2.8rem;
+      color: #f5efe6;
+      margin-bottom: 12px;
+    }
+
+    #hobbies-hero p {
+      color: #c9b89a;
+      font-size: 1.1rem;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .hobby-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+
+    .hobby-card {
+      background-color: #fdf6ee;
+      border: 1px solid #e0c9a8;
+      border-radius: 6px;
+      padding: 28px 24px;
+      position: relative;
+    }
+
+    .hobby-card h3 {
+      color: #3b2f1e;
+      margin-bottom: 8px;
+    }
+
+    .hobby-card p {
+      color: #6b5c47;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .hobby-icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== FIXED NAVIGATION ========== -->
+  <nav id="main-nav">
+    <div class="nav-inner">
+      <span class="nav-logo">Madie Searle</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="https://www.linkedin.com/in/madie-searle-993b582a9" target="_blank">LinkedIn</a></li>
+        <li><a href="wordle.html">🎮 Wordle</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header id="hobbies-hero">
+    <div class="hero-accent"></div>
+    <h1>Life Outside the Sales Floor</h1>
+    <p>
+      I believe the same grit that gets you through mile 80 of a century ride gets you through a rough quarter.
+      Here's what keeps me sharp.
+    </p>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main>
+
+    <!-- ========== ENDURANCE SECTION ========== -->
+    <!-- Endurance sports: biggest part of her identity outside work -->
+    <section id="endurance" class="section section-light">
+      <h2>Endurance &amp; Athletics</h2>
+      <h3>Built to go the distance</h3>
+
+      <div class="floated-block">
+        <!-- Floated image with text wrap -->
+        <img
+          src="Madie.png"
+          alt="Madie Searle, endurance athlete and sales professional"
+          width="200"
+          height="200"
+          class="floated-img"
+        >
+        <p>
+          I've completed the <span class="emphasis">100-mile St. George Century Bike Race</span> and the
+          <span class="emphasis">Colorado Springs Marathon</span>. Endurance sports taught me something sales never fully can:
+          that discomfort is temporary, and showing up consistently is the only strategy that works long-term.
+        </p>
+        <p>
+          I grew up in Franktown, Colorado — a small town east of Denver where the Rockies are close enough to feel personal.
+          Getting outside has never been optional for me. It's how I reset.
+        </p>
+        <br>
+        <p id="activities-anchor">My regular rotation of activities:</p>
+      </div>
+
+      <!-- Ordered list: ranked by how often she does them -->
+      <ol class="styled-list">
+        <li>Cycling — road and trail, any distance</li>
+        <li>Running — training year-round</li>
+        <li>Hiking — especially anything with elevation gain</li>
+        <li>Pickleball — competitive and improving fast</li>
+        <li>Swing dancing — yes, really</li>
+      </ol>
+    </section>
+
+    <!-- ========== HOBBY CARDS ========== -->
+    <!-- Additional hobbies in card format -->
+    <section id="more-hobbies" class="section section-warm">
+      <h2>More of What I Love</h2>
+
+      <div class="hobby-grid">
+
+        <div class="hobby-card" id="dancing-card">
+          <span class="hobby-icon">🕺</span>
+          <h3>Swing Dancing</h3>
+          <p>
+            There's something about the rhythm and responsiveness of swing dancing that mirrors a good sales conversation — 
+            you have to listen, adapt, and lead at the same time.
+          </p>
+        </div>
+
+        <div class="hobby-card">
+          <span class="hobby-icon">🏔️</span>
+          <h3>Repelling &amp; Hiking</h3>
+          <p>
+            I'll take a canyon wall or a ridge trail over a gym any day. Utah is an outdoor playground, and I try to take full advantage.
+          </p>
+        </div>
+
+        <div class="hobby-card">
+          <span class="hobby-icon">🛶</span>
+          <h3>Boating &amp; Hammocking</h3>
+          <p>
+            Some of the best thinking happens horizontal in a hammock between two trees, or floating on a lake somewhere.
+            I recharge in nature.
+          </p>
+        </div>
+
+        <div class="hobby-card">
+          <span class="hobby-icon">🌍</span>
+          <h3>Service &amp; Languages</h3>
+          <p>
+            I served a full-time mission for 18 months in Roseville, California. I speak conversational Spanish and 
+            learned firsthand how much showing up for others changes you.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== VALUES SECTION ========== -->
+    <!-- What drives her -->
+    <section id="values" class="section section-light">
+      <h2>What Drives Me</h2>
+      <h3>Goals beyond the next quota</h3>
+
+      <p>Sales is the day job. But I'm building toward something bigger.</p>
+
+      <ul class="styled-list">
+        <li>Founding a nonprofit that supports mothers through major life transitions</li>
+        <li>Graduating from the BYU Marriott School of Business — Business Management track</li>
+        <li>Learning how AI is reshaping outbound sales and staying ahead of it</li>
+        <li>Completing another century ride — and eventually a 200-miler</li>
+      </ul>
+
+      <div class="callout-box" style="margin-top: 32px;">
+        <p>
+          "The same grit that finishes a marathon finishes a hard quarter.
+          <span class="emphasis">I'm not afraid of the miles."</span>
+        </p>
+      </div>
+
+      <!-- Anchor link back to top of page -->
+      <p style="margin-top: 24px; text-align: center;">
+        <a href="#endurance">Back to the top of this page</a> &nbsp;|&nbsp;
+        <a href="index.html">Return to my main portfolio</a> &nbsp;|&nbsp;
+        <a href="https://www.strava.com" target="_blank">Track athletes on Strava</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="main-footer">
+    <p>Madison A. Searle &nbsp;·&nbsp; <a href="mailto:searle29@byu.edu">Searle29@byu.edu</a> &nbsp;·&nbsp; (303) 210-2454</p>
+    <p class="footer-small">Built for IS 201 &nbsp;·&nbsp; BYU Marriott School of Business</p>
+  </footer>
+
+</body>
+</html>

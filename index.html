@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madison Searle — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Internal style block (Chapter 24 requirement) -->
+  <style>
+    #hero {
+      background-color: #3b2f1e;
+      color: #f5efe6;
+      padding: 120px 40px 80px;
+      text-align: center;
+      position: relative;
+    }
+
+    #hero h1 {
+      font-size: 3.2rem;
+      letter-spacing: 0.04em;
+      margin-bottom: 10px;
+      color: #f5efe6;
+    }
+
+    #hero .tagline {
+      font-size: 1.15rem;
+      color: #c9b89a;
+      margin-bottom: 28px;
+    }
+
+    #hero .hero-cta {
+      display: inline-block;
+      background-color: #b5712a;
+      color: #f5efe6;
+      padding: 12px 32px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-top: 8px;
+      transition: background-color 0.2s;
+    }
+
+    #hero .hero-cta:hover {
+      background-color: #8f5518;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== FIXED NAVIGATION ========== -->
+  <nav id="main-nav">
+    <div class="nav-inner">
+      <span class="nav-logo">Madie Searle</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="https://www.linkedin.com/in/madie-searle-993b582a9" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <header id="hero">
+    <!-- Absolute-positioned decorative accent -->
+    <div class="hero-accent"></div>
+
+    <div class="hero-content">
+      <img
+        src="Madie.png"
+        alt="Madison Searle smiling in a Big Red Jelly polo"
+        width="160"
+        height="160"
+        class="hero-photo"
+      >
+      <h1>Madison Searle</h1>
+      <p class="tagline">Business Development Specialist &nbsp;·&nbsp; BYU Pre-Business &nbsp;·&nbsp; Franktown, CO</p>
+      <p class="hero-sub">
+        I close deals, build pipelines, and ride centuries.<br>
+        Currently applying to the <span class="highlight-text">BYU Marriott School of Business</span>.
+      </p>
+      <a href="#experience" class="hero-cta">See My Work</a>
+    </div>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <!-- About: quick snapshot -->
+    <section id="about" class="section section-light">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>Sales. Endurance. Drive.</h3>
+          <p>
+            I grew up in Franktown, Colorado, where the mountains were close enough to make you ambitious.
+            I spent two years as a full-time missionary in Roseville, California — learning to teach, listen, and adapt in a second language.
+            That experience planted a deep belief: <span class="emphasis">the best salespeople are great communicators first.</span>
+          </p>
+          <p>
+            Today I manage a full outbound sales pipeline at Big Red Jelly, a branding and web design agency in Provo.
+            I run discovery calls, build prospect sequences, and work cross-functionally with design and project management to move deals from lead to close.
+          </p>
+          <br>
+          <p style="color: #8f5518; font-weight: 600;">GPA: 3.37 &nbsp;|&nbsp; Expected Graduation: Apr 2028</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">100</span>
+            <span class="stat-label">Mile century bike race completed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">26.2</span>
+            <span class="stat-label">Mile Colorado Springs Marathon</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Languages: English + Spanish</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE SECTION ========== -->
+    <!-- Work experience pulled from resume -->
+    <section id="experience" class="section section-warm">
+      <h2>Work Experience</h2>
+
+      <div class="job-card">
+        <div class="job-header">
+          <h3>Business Development Specialist</h3>
+          <span class="job-meta">Big Red Jelly &nbsp;·&nbsp; Provo, UT &nbsp;·&nbsp; Mar 2026 – Present</span>
+        </div>
+        <ul>
+          <li>Manage a full sales pipeline using HubSpot CRM with outbound prospecting, discovery calls, and follow-up sequences</li>
+          <li>Collaborate with design, project management, and leadership to align client strategy across Brand, Build, and Grow services</li>
+          <li>Build outbound sequences and cold call frameworks from scratch to generate consistent qualified leads</li>
+        </ul>
+      </div>
+
+      <div class="job-card">
+        <div class="job-header">
+          <h3>Sales Development Representative</h3>
+          <span class="job-meta">Coalition Growth &nbsp;·&nbsp; Vineyard, UT &nbsp;·&nbsp; Feb 2025 – Sep 2025</span>
+        </div>
+        <ul>
+          <li>Generated and qualified leads through outbound outreach to build a consistent pipeline</li>
+          <li>Executed solution-selling strategies to identify client needs and position services</li>
+        </ul>
+      </div>
+
+      <div class="job-card">
+        <div class="job-header">
+          <h3>Salesperson</h3>
+          <span class="job-meta">Vivint &nbsp;·&nbsp; Provo, UT &nbsp;·&nbsp; Mar 2024 – Oct 2024</span>
+        </div>
+        <ul>
+          <li>Delivered full-cycle sales from prospecting to close, negotiating contracts and pricing agreements</li>
+          <li>Conducted door-to-door outreach campaigns, building persuasive communication in a high-rejection environment</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <!-- Skills and tools -->
+    <section id="skills" class="section section-light">
+      <h2>Skills &amp; Tools</h2>
+      <div class="skills-columns">
+        <div>
+          <h3>Sales &amp; Strategy</h3>
+          <ol>
+            <li>Sandler Sales Methodology</li>
+            <li>Outbound prospecting &amp; sequencing</li>
+            <li>Discovery call facilitation</li>
+            <li>Pipeline management &amp; CRM hygiene</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Tools &amp; Platforms</h3>
+          <ul>
+            <li>HubSpot CRM</li>
+            <li>Monday.com</li>
+            <li>Google Workspace</li>
+            <li>Canva &amp; SEMrush</li>
+            <li>AI tools in sales workflows</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- On-page anchor target -->
+      <div id="education" class="education-block">
+        <h3>Education</h3>
+        <p><strong>Brigham Young University — Marriott School of Business</strong></p>
+        <p>Pre-Business &nbsp;·&nbsp; Provo, UT &nbsp;·&nbsp; Expected Apr 2028</p>
+        <p>Relevant coursework: Principles of Accounting, Marketing Management, Econ 110, ENT Startup Bootcamp, Intro to Information Systems, Statistical Data Analysis</p>
+      </div>
+    </section>
+
+    <!-- ========== ANCHOR LINK DEMO ========== -->
+    <section class="section section-warm anchor-section">
+      <p>
+        Want to see what I do outside of work?
+        <a href="hobbies.html">Check out my hobbies page</a> — or jump straight to my
+        <a href="#education">education background above</a>.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="main-footer">
+    <p>Madison A. Searle &nbsp;·&nbsp; <a href="mailto:searle29@byu.edu">Searle29@byu.edu</a> &nbsp;·&nbsp; (303) 210-2454</p>
+    <p style="margin-top:8px;">
+      <a href="wordle.html" style="color:#c9b89a;">🎮 Play Wordle</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/madie-searle-993b582a9" target="_blank" style="color:#c9b89a;">LinkedIn</a>
+    </p>
+    <p class="footer-small">Built for IS 201 &nbsp;·&nbsp; BYU Marriott School of Business</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madie's Scratch Page — Cycling &amp; Endurance</title>
+
+  <!-- Linked custom stylesheet (created from scratch) -->
+  <link rel="stylesheet" href="scratch-styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <!-- Links back to professional pages as required -->
+  <nav id="scratch-nav">
+    <span class="nav-brand">Madie Searle</span>
+    <ul>
+      <li><a href="index.html">Portfolio</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="#intro">About Cycling</a></li>
+      <li><a href="#video-section">Watch</a></li>
+      <li><a href="#data-section">Data</a></li>
+      <li><a href="wordle.html">🎮 Play Wordle</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== DIV 1: HERO ===== -->
+  <!-- Custom background color via CSS on #hero-div -->
+  <div id="hero-div">
+    <span class="hero-badge">100 Miles · St. George Century</span>
+    <h1>Riding Through the Hard Parts</h1>
+    <p class="hero-tagline">
+      A century ride isn't really about cycling. It's about everything you figure out
+      about yourself somewhere between mile 60 and mile 80.
+    </p>
+    <!-- On-page anchor link -->
+    <a href="#intro" class="btn-primary">Start Here</a>
+    &nbsp;&nbsp;
+    <a href="wordle.html" class="btn-secondary">Play My Wordle</a>
+  </div>
+
+  <!-- ===== DIV 2: MAIN CONTENT ===== -->
+  <div id="content-div">
+
+    <!-- ===== SECTION 1: INTRO (anchor target) ===== -->
+    <section class="scratch-section" id="intro">
+      <h2>Why Cycling?</h2>
+
+      <p>
+        I grew up in Franktown, Colorado — a small town east of Denver where the Front Range looms
+        close enough to feel personal. Getting outside was never a hobby; it was just what you did.
+        Cycling became my sport of choice not because it's easy, but because it isn't.
+      </p>
+
+      <!-- Image from outside Bootstrap theme (required) -->
+      <img
+        src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=900&q=80"
+        alt="Road cyclist riding through mountainous Utah terrain at sunrise"
+        class="cycling-img"
+      >
+      <p class="img-caption">Utah's roads offer some of the most beautiful — and punishing — cycling terrain in the country.</p>
+
+      <!-- Stats div (DIV 3) -->
+      <div id="stats-div">
+        <div class="stat-item">
+          <span class="stat-number">100</span>
+          <span class="stat-desc">Miles · St. George Century</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">26.2</span>
+          <span class="stat-desc">Miles · Colorado Springs Marathon</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">6+</span>
+          <span class="stat-desc">Years of Endurance Training</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 2: NESTED LIST ===== -->
+    <!-- Ordered list with unordered lists embedded inside (required) -->
+    <section class="scratch-section" id="training">
+      <h2>How I Train</h2>
+      <p>
+        Training for a century is as much mental as physical. Here's how I structure my year:
+      </p>
+
+      <!-- ORDERED list with UNORDERED lists nested inside (required element) -->
+      <ol class="main-list">
+        <li>
+          <span>Base Building (January – March)</span>
+          <ul class="nested-list">
+            <li>Long slow rides, 3–4 hours at conversational pace</li>
+            <li>Core and strength work 3 days a week</li>
+            <li>Focus on form and cadence, not speed</li>
+          </ul>
+        </li>
+        <li>
+          <span>Intensity Phase (April – May)</span>
+          <ul class="nested-list">
+            <li>Interval training: 5x5 minute VO2 max efforts</li>
+            <li>Hill repeats on Provo Canyon roads</li>
+            <li>One long ride per week scaling from 60 to 80 miles</li>
+          </ul>
+        </li>
+        <li>
+          <span>Peak &amp; Taper (June)</span>
+          <ul class="nested-list">
+            <li>One final 90-mile training ride</li>
+            <li>Reduce volume by 40%, keep some intensity</li>
+            <li>Sleep, nutrition, and hydration take priority</li>
+          </ul>
+        </li>
+        <li>
+          <span>Race Day (St. George Century)</span>
+          <ul class="nested-list">
+            <li>Early start to beat desert heat</li>
+            <li>Fuel every 20 miles regardless of hunger</li>
+            <li>Ride my own race — ignore everyone else's pace</li>
+          </ul>
+        </li>
+        <li>
+          <span>Recovery &amp; Reflection (Post-race)</span>
+          <ul class="nested-list">
+            <li>Active recovery: easy spinning and swimming</li>
+            <li>Journal what worked and what to improve</li>
+            <li>Start planning the next goal</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== SECTION 3: YOUTUBE VIDEO ===== -->
+    <!-- Embedded YouTube video (required) — won't work locally, works when hosted -->
+    <section class="scratch-section" id="video-section">
+      <h2>What a Century Ride Looks Like</h2>
+      <p>
+        The St. George area is legendary in the cycling world. This video captures what the roads,
+        the terrain, and the challenge actually feel like:
+      </p>
+
+      <!-- YouTube embed (required element) -->
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/nkj-SAzJiOo"
+          title="Utah Century Ride — Red Rock Cycling"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p style="text-align:center; font-size:0.85rem; color:#8a7a6a;">
+        ↑ Video doesn't show when opened locally — it works once the site is hosted online.
+      </p>
+    </section>
+
+    <!-- ===== SECTION 4: TABLEAU ===== -->
+    <!-- Live interactive Tableau visualization (required) -->
+    <section class="scratch-section" id="data-section">
+      <h2>Cycling by the Numbers</h2>
+      <p>
+        I love data — in sales and in training. This Tableau visualization shows cycling and outdoor
+        recreation trends across the US, giving context to why so many people (including me) are obsessed with the sport:
+      </p>
+
+      <div class="tableau-wrapper">
+        <!-- Live interactive Tableau embed -->
+        <div class='tableauPlaceholder' id='viz1' style='position: relative; width: 100%;'>
+          <noscript>
+            <a href='#'>
+              <img alt='Bicycle Commuting Trends' src='https://public.tableau.com/static/images/Bi/BicycleCommutingTrends/Dashboard1/1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz' style='display:none; width:100%; height:500px;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='BicycleCommutingTrends/Dashboard1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Bi/BicycleCommutingTrends/Dashboard1/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object>
+        </div>
+        <script type='text/javascript'>
+          var divElement = document.getElementById('viz1');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width = '100%';
+          vizElement.style.height = '500px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        <p class="tableau-label">Interactive Tableau dashboard — hover, click, and filter to explore the data.</p>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 5: WEB APP LINK ===== -->
+    <section class="scratch-section" id="app-section">
+      <h2>My Web App</h2>
+      <p>
+        I built a Wordle clone as part of this project — with a custom brown-and-gold color scheme
+        that matches the rest of my portfolio. Green for correct, amber for close. Try to beat it in three!
+      </p>
+
+      <div class="app-cta">
+        <h3>🟩 Play Madie's Wordle</h3>
+        <p>
+          A fully functional Wordle clone with animations, a keyboard, and a custom color palette.
+          Guess the 5-letter word in 6 tries.
+        </p>
+        <a href="wordle.html" class="btn-primary">Play Now</a>
+      </div>
+    </section>
+
+    <!-- On-page anchor back to top (required) -->
+    <a href="#intro" class="back-to-top">↑ Back to top of page</a>
+
+  </div><!-- end #content-div -->
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="scratch-footer">
+    <p>Madison A. Searle &nbsp;·&nbsp; <a href="mailto:searle29@byu.edu">Searle29@byu.edu</a> &nbsp;·&nbsp; (303) 210-2454</p>
+    <p style="margin-top:6px;">Built for IS 201 &nbsp;·&nbsp; BYU Marriott School of Business &nbsp;·&nbsp;
+      <a href="index.html">Return to Portfolio</a></p>
+  </footer>
+
+</body>
+</html>
